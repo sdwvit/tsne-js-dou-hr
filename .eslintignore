@@ -1,0 +1,6 @@
+**/*.scss
+**/*.json
+**/*.png
+**/*.woff
+webpack.config.js
+index.html
