@@ -54,5 +54,6 @@ module.exports = {
 				{ from: /./, to: '/' },
 			],
 		},
+		host: '127.0.0.1',
 	},
 };

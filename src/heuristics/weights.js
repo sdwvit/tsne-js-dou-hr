@@ -74,8 +74,8 @@ const weights = {
 	 * @return {number}
 	 */
 	Должность(v) {
-		if (v.toLowerCase().indexOf('mid') >= 0) {
-			return 0.5;
+		if (v.toLowerCase().indexOf('jun') >= 0) {
+			return 0.0;
 		}
 		if (v.toLowerCase().indexOf('senior') >= 0) {
 			return 1.0;
@@ -83,7 +83,7 @@ const weights = {
 		if (v.toLowerCase().indexOf('lead') >= 0) {
 			return 1.5;
 		}
-		return 0.0;
+		return 0.5;
 	},
 	/**
 	 * @return {number}
